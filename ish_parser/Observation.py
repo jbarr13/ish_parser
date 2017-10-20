@@ -33,3 +33,6 @@ class Observation(object):
           return float('NaN')
       else:
           return float(self._obs_value)
+
+  def raw(self):
+      return self._obs_value
